@@ -6,35 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simran | Banana Speak</title>
-
-    <style>
-        textarea {
-            width: 80%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>talk bananaaaa</h1>
-    <textarea id="txt-input"
-        placeholder="put your sentence in english here and we will convert it to banana"></textarea>
-    <button id="btn-translate">Translate</button>
+    <header>
+        <h1>Minion speaks !!</h1>
+    </header>
 
-    <div style="font-size: larger;">Output will come here 👇</div>
-    <div id="output"></div>
+    <main>
+        <textarea id="txt-input"
+            placeholder="put your sentence in english here and we will convert it to minion...."></textarea>
+        <button id="btn-translate">Translate to banana</button>
+        <div style="font-size: larger;font-family: 'Kanit', sans-serif;">Output will come here 👇</div>
+        <div id="output"></div>
+    </main>
+
+    <footer>
+        <div style="font-size: larger;">Connect with me on</div>
+        <ul>
+            <li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="/"><i class="fab fa-github-alt"></i></a></li>
+            <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="/"><i style="font-weight: 600;" class="fab fa-instagram"></i></a></i></li>
+        </ul>
+    </footer>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
