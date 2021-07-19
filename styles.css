@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Otomanopee+One&display=swap');
 
 :root{
-    --primary-color: #fff352;
+    --primary-color: #f5c452;
     --secondary-color: #f3eda7;
     --dark-gray: #474644;
 }
@@ -64,7 +64,7 @@ footer {
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
-    border-top-right-radius: 2rem;
+    border-radius: 2rem 2rem 0 0;
 }
 
 footer p {
